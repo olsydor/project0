@@ -26,12 +26,16 @@
                 flex-wrap: wrap;
                 margin: -20px;
             }
-
- .row > div {
+ul, ol {
+    padding-left: 40px;
+}
+.row > div {
                 padding: 20px;
                 background-color: lightgrey;
                 border: 2px white;
             }
+}
+}
 .id {
 
 }
@@ -60,4 +64,7 @@ h1	{
 }
 .glyphicons-text-height:before {
   content: "\e050";
+}
+#video {
+  margin-top: 50px;
 }
